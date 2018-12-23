@@ -1,7 +1,7 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://eureka:8761/eureka/
 
 spring:
   application:
@@ -13,8 +13,9 @@ spring:
           uri: https://github.com/fanxl12/config-repo
           username: 744822514@qq.com
           password: fxl421125
+          basedir: C:/WorkSpace/JavaSpace/config/basedir
   rabbitmq:
-    host: 192.168.99.100
+    host: rabbitmq
 
 management:
   endpoints:
